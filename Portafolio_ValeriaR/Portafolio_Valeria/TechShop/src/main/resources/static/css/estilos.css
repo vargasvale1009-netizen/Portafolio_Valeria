@@ -1,0 +1,106 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #5555ee;
+    padding: 14px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* ===== NAV MENU ===== */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-menu-item a.menu-item {
+    background-color: #22aa22;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-menu-item a.menu-item:hover {
+    background-color: #1a881a;
+}
+
+/* ===== LAYOUT DOS COLUMNAS ===== */
+.contenido {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    width: 200px;
+    min-width: 200px;
+    background-color: #f5d5aa;
+}
+
+section {
+    flex: 1;
+    background-color: #d4737a;
+    padding: 16px 20px;
+}
+
+section p, section h2 {
+    font-size: 15px;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+section h2 {
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+
+section article {
+    margin-bottom: 20px;
+}
+
+section article h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #d4737a;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 12px;
+    font-size: 13px;
+    border-top: 1px solid #c05a62;
+}
